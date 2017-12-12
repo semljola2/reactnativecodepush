@@ -1,0 +1,33 @@
+PODS:
+  - AppCenter/Analytics (1.0.1):
+    - AppCenter/Core
+  - AppCenter/Core (1.0.1)
+  - AppCenter/Crashes (1.0.1):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (1.0.1):
+    - AppCenter/Core (= 1.0.1)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-video (2.0.0):
+    - React
+  - React/Core (0.11.0)
+
+DEPENDENCIES:
+  - AppCenter/Analytics (~> 1.0.1)
+  - AppCenter/Crashes (~> 1.0.1)
+  - AppCenterReactNativeShared (~> 1.0.1)
+  - react-native-video (from `../node_modules/react-native-video`)
+
+EXTERNAL SOURCES:
+  react-native-video:
+    :path: ../node_modules/react-native-video
+
+SPEC CHECKSUMS:
+  AppCenter: 1d9e08e4ffe7a8eab6e9741a12d27e44074e73a7
+  AppCenterReactNativeShared: d7238832c02bd37019083045ed9fa24ba3193779
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-video: 77f73e3867d91ed4147a6444d4da227fe8ee7404
+
+PODFILE CHECKSUM: ea65ad25b3f2cc8cb476e537d7a5e1e8e30a016d
+
+COCOAPODS: 1.3.1
